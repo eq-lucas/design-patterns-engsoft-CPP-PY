@@ -76,7 +76,14 @@ Isso permite visualizar conceitos de baixo nível (como gerenciamento de memóri
 
 
 ### Conceitos de Baixo Nível Abordados
+
 Na versão C++, aplicamos conceitos rigorosos que o Python abstrai:
+
+
+* **Objetivo**: Compreender como o padrão funciona em baixo nível, lidando manualmente com alocação de memória, ponteiros, herança e tabelas virtuais (`vtable`).
+* **Diferencial**:  conceitos de Polimorfismo a questao do virtual, e ponteiros, apontarem para variaveis ( classes que nao sao do mesmo tipo declarado do ponteiro)...
+
+
 * **Polimorfismo com Ponteiros:** Uso de `std::vector<LoginStrategyValidar*>` para armazenar classes filhas diferentes na mesma lista.
 * **Destrutores Virtuais:** Implementação de `virtual ~Contexto()` e `virtual ~LoginStrategyValidar()` para garantir a limpeza correta da memória Heap e evitar *Memory Leaks*.
 * **Encapsulamento:** Uso estrito de modificadores de acesso (`private` vs `public`) e métodos *Getters* para proteger os dados do Usuário.
