@@ -17,7 +17,7 @@ O repositório está dividido em pastas por categoria. Dentro de cada pasta, voc
 
 ### 2. [Criacional: Factory Method](./criacional)
 * **Problema:** O código precisa criar objetos sem especificar suas classes exatas.
-* **Aplicação:** Um sistema de relatórios que fabrica diferentes formatos (HTML, CSV, PDF) sem acoplar o cliente à classe concreta.
+* **Aplicação:** Implementação da estrutura clássica do padrão (Creator/Product), exemplificando um sistema de logística que fabrica diferentes tipos de transporte (como Caminhão ou Navio) sem acoplar o cliente à classe concreta.
 * **Localização do Código C++:** `criacional/codigo`
 
 ### 3. [Estrutural: Facade](./estrutural)
